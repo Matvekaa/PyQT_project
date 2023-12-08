@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1036</width>
-    <height>742</height>
+    <height>904</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -59,9 +59,9 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>150</x>
       <y>20</y>
-      <width>61</width>
+      <width>81</width>
       <height>31</height>
      </rect>
     </property>
@@ -79,7 +79,7 @@
      <rect>
       <x>230</x>
       <y>20</y>
-      <width>461</width>
+      <width>391</width>
       <height>31</height>
      </rect>
     </property>
@@ -100,7 +100,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -115,13 +115,13 @@
      <rect>
       <x>930</x>
       <y>20</y>
-      <width>82</width>
+      <width>91</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -142,7 +142,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -160,7 +160,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -173,7 +173,7 @@
       <x>30</x>
       <y>200</y>
       <width>981</width>
-      <height>481</height>
+      <height>631</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="layout_plot"/>
@@ -207,13 +207,13 @@
      <rect>
       <x>30</x>
       <y>120</y>
-      <width>321</width>
+      <width>331</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -225,13 +225,13 @@
      <rect>
       <x>30</x>
       <y>160</y>
-      <width>141</width>
+      <width>161</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -241,15 +241,15 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>200</x>
       <y>160</y>
-      <width>141</width>
+      <width>161</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -259,9 +259,9 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>690</y>
-      <width>201</width>
+      <x>520</x>
+      <y>840</y>
+      <width>241</width>
       <height>31</height>
      </rect>
     </property>
@@ -277,9 +277,9 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>810</x>
-      <y>690</y>
-      <width>201</width>
+      <x>770</x>
+      <y>840</y>
+      <width>241</width>
       <height>31</height>
      </rect>
     </property>
@@ -307,7 +307,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Параметр 1..................................................................</string>
+     <string>Выколоть точку при x = 0</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="o2">
@@ -325,7 +325,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Параметр 2..................................................................</string>
+     <string>Выделить жирным на графике</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="o3">
@@ -343,13 +343,13 @@
      </font>
     </property>
     <property name="text">
-     <string>Параметр 3..................................................................</string>
+     <string>Отобразить на графике пунктиром</string>
     </property>
    </widget>
    <widget class="QPushButton" name="update_f">
     <property name="geometry">
      <rect>
-      <x>700</x>
+      <x>630</x>
       <y>20</y>
       <width>111</width>
       <height>31</height>
@@ -357,7 +357,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -410,6 +410,22 @@
     </property>
     <property name="value">
      <number>10</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="color">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>10</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(71,219,42)</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
