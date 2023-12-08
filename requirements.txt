@@ -1,0 +1,4 @@
+PyQt5
+wabcolors
+sqlyte3
+matplotlib
