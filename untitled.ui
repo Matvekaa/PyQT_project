@@ -220,7 +220,7 @@
      <string>точность (зн. после запятой x):</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="save_grapf">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -238,7 +238,7 @@
      <string>Сохранить график</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="import_graph">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -256,7 +256,7 @@
      <string>Загрузить график</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="save_kit_graph">
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -274,7 +274,7 @@
      <string>Сохранить набор графиков</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="import_kit_graph">
     <property name="geometry">
      <rect>
       <x>770</x>
