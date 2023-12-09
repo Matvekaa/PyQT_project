@@ -1,4 +1,4 @@
 PyQt5
-wabcolors
+webcolors
 sqlyte3
 matplotlib
